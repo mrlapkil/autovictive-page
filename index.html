@@ -4,14 +4,16 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Radio Selector</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 <style>
 body {
   margin: 0;
   background-color: #121212; /* matte black */
   display: flex;
-  justify-content: center;
-  align-items: center;
+  align-items: center; /* vertical center */
   height: 100vh;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.5rem; /* bigger text */
 }
 
 .radio-container {
@@ -22,7 +24,7 @@ body {
   display: flex;
   flex-direction: column;
   position: relative;
-  padding-left: 0.5rem;
+  padding-left: 2rem; /* spacing from edge */
 }
 
 .radio-container input {
@@ -91,6 +93,7 @@ body {
   position: relative;
   color: grey;
   transition: color 0.5s ease;
+  font-weight: 600;
 }
 
 /* Label color matches glow when selected */
